@@ -60,7 +60,7 @@ _git push --> Sube los cambios confirmados a la rama remota del repositorio._
 git push origin 
 ```
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+Mira **[lista de comandos](https://gist.github.com/dasdo/9ff71c5c0efa037441b6)** para conocer mas sobre comandos de Git.
 
 ## Construido con 🛠️
 
@@ -83,9 +83,9 @@ Este proyecto está bajo Licencia.
 
 ## Agradecimientos 🎁
 
-* Damos las gracias por seguir mejorando y dando un software de calidad 🤓.
+* Damos las gracias por seguir mejorando y dando un software de calidad 🧑‍💻.
 * Comenta a otros sobre este proyecto 📢
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
 
 ---
-⌨️ con ❤️ por [criver45](https://github.com/criver45) 😊
+⌨️ con ❤️ por [criver45](https://github.com/criver45) :😎🎧🎸
