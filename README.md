@@ -3,9 +3,12 @@
 _Es una aplicación móvil intuitiva que comprende como funciona el número mágico de kaprekar "6174" y poder interactuar con la aplicación, recorriendo a traves de sus interfaces como primera interfaz la pagina principal que le mostrara opciones como ver ejemplo de kaprekar, de la cual podra ir a ver como funciona e interactuar con el; ademas de que podra visualizar cuantas interacciones realiza el número mágico de kaprekar, ademas de muchas cosas que podra interactuar el usuario con la aplicación._
 
 ## Pre-Requisitos 🚧
-_Instalar:_
+**_Instalar:_**
 - _Android Studio_
 - _Git_
+- _GitHub Desktop(opcional)_
+
+**Crearse cuenta en GitHub**
 
 ## Comenzando 🚀
 
