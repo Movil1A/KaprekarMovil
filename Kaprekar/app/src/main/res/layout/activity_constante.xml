@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Constante">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Constante de Kaprekar"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etMultiLine"
+        android:layout_width="385dp"
+        android:layout_height="194dp"
+        android:background="#030303"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="216dp"
+        android:layout_height="191dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/kaprekar"
+        tools:layout_editor_absoluteX="462dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/btnEjemplo"
+        android:layout_width="318dp"
+        android:layout_height="49dp"
+        android:text="Ver Ejemplo"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Constante de Kaprekar"
+        tools:layout_editor_absoluteX="369dp"
+        tools:layout_editor_absoluteY="309dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
