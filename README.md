@@ -74,8 +74,9 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * **Edward Jimenez** - *Git Master* - [criver45](https://github.com/criver45)
 * **Ramiro Borda** - *Developer* - 
-* **Jorge Barahona** - *Developer* -
 * **David Valdivia** - *Developer* -
+* **Marco Rocha** - *Developer* -
+* **Jorge Barahona** - *Developer* -
 
 ## Licencia 📄
 
