@@ -25,9 +25,10 @@
     <EditText
         android:id="@+id/etNumero"
         android:layout_width="470dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:layout_marginTop="40dp"
         android:ems="10"
+        android:hint="@string/etNumero"
         android:inputType="textPersonName"
         android:textColor="#EFEFEF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,55 +39,73 @@
     <Button
         android:id="@+id/btnRutinaKaprekar"
         android:layout_width="585dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="105dp"
         android:text="Rutina de Kaprekar"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="105dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine2"
+        android:id="@+id/etLista"
         android:layout_width="588dp"
         android:layout_height="129dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="82dp"
         android:background="#030303"
         android:ems="10"
         android:gravity="start|top"
+        android:hint="@string/etLista"
         android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="214dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="164dp"
         android:text="Número de Iteraciones: "
         android:textColor="#FBF9F9"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="164dp" />
+        app:layout_constraintEnd_toStartOf="@+id/tvIteracion"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvIteracion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
         android:text="Iteracion"
         android:textColor="#FBF7F7"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="274dp"
-        tools:layout_editor_absoluteY="164dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="145dp"
-        android:layout_height="47dp"
-        android:text="Limpiar"
-        tools:layout_editor_absoluteX="501dp"
-        tools:layout_editor_absoluteY="151dp" />
+        android:layout_height="48dp"
+        android:layout_marginTop="151dp"
+        android:text="@string/btnLimpiar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toEndOf="@+id/tvIteracion"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnRegresar"
         android:layout_width="585dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:text="Regresar"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="345dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLista" />
 </androidx.constraintlayout.widget.ConstraintLayout>
