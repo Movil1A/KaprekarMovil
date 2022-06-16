@@ -73,10 +73,10 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 ## Autores ✒️
 
 * **Edward Jimenez** - *Git Master* - [criver45](https://github.com/criver45)
-* **Ramiro Borda** - *Developer* - 
-* **David Valdivia** - *Developer* -
-* **Marco Rocha** - *Developer* -
-* **Jorge Barahona** - *Developer* -
+* **Ramiro Borda** - *Developer* - [Ramiroborda](https://github.com/Ramiroborda)
+* **David Valdivia** - *Developer* - [David](https://github.com/David300902)
+* **Marco Rocha** - *Developer* - [lord-macros](https://github.com/lord-macros)
+* **Jorge Barahona** - *Developer* - [JuggBAR](https://github.com/JuggBAR)
 
 ## Licencia 📄
 
