@@ -45,7 +45,7 @@
         app:srcCompat="@drawable/_174" />
 
     <Button
-        android:id="@+id/btnRegresar"
+        android:id="@+id/btnRegresar2"
         android:layout_width="592dp"
         android:layout_height="48dp"
         android:layout_marginTop="332dp"
