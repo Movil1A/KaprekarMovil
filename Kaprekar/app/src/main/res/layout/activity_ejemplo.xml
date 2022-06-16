@@ -26,6 +26,7 @@
         android:background="#030303"
         android:ems="10"
         android:gravity="start|top"
+        android:hint="@string/btnRegresar"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,9 +45,9 @@
         app:srcCompat="@drawable/_174" />
 
     <Button
-        android:id="@+id/btnRegresar"
+        android:id="@+id/btnRegresar2"
         android:layout_width="592dp"
-        android:layout_height="44dp"
+        android:layout_height="48dp"
         android:layout_marginTop="332dp"
         android:text="Regresar"
         app:layout_constraintEnd_toEndOf="parent"

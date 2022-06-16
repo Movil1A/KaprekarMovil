@@ -11,13 +11,19 @@
         android:theme="@style/Theme.Kaprekar">
         <activity
             android:name=".Calcular"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape"
+            />
         <activity
             android:name=".Ejemplo"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape"
+            />
         <activity
             android:name=".Constante"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">
