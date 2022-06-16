@@ -25,35 +25,47 @@
         android:id="@+id/etMultiLine"
         android:layout_width="385dp"
         android:layout_height="194dp"
+        android:layout_marginTop="24dp"
         android:background="#030303"
         android:ems="10"
         android:gravity="start|top"
+        android:hint="@string/txtEdit"
         android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="89dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="216dp"
         android:layout_height="191dp"
+        android:layout_marginTop="24dp"
         android:adjustViewBounds="true"
-        app:srcCompat="@drawable/kaprekar"
-        tools:layout_editor_absoluteX="462dp"
-        tools:layout_editor_absoluteY="92dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/kaprekar" />
 
     <Button
         android:id="@+id/btnEjemplo"
         android:layout_width="318dp"
         android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
         android:text="Ver Ejemplo"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="308dp" />
+        app:layout_constraintEnd_toStartOf="@+id/btnCalcular"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMultiLine" />
 
     <Button
         android:id="@+id/btnCalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
         android:text="Calcular Constante de Kaprekar"
-        tools:layout_editor_absoluteX="369dp"
-        tools:layout_editor_absoluteY="309dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
