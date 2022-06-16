@@ -16,58 +16,44 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/etDescripcion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/etDescripcion"
+        android:id="@+id/etMultiLine"
         android:layout_width="385dp"
         android:layout_height="194dp"
         android:background="#030303"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="@string/etDescripcion"
         android:inputType="textMultiLine"
-        app:layout_constraintBottom_toTopOf="@+id/btnEjemplo"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="89dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="216dp"
         android:layout_height="191dp"
         android:adjustViewBounds="true"
-        app:layout_constraintBottom_toTopOf="@+id/btnCalcular"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/etDescripcion"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/kaprekar" />
+        app:srcCompat="@drawable/kaprekar"
+        tools:layout_editor_absoluteX="462dp"
+        tools:layout_editor_absoluteY="92dp" />
 
     <Button
         android:id="@+id/btnEjemplo"
         android:layout_width="318dp"
         android:layout_height="49dp"
         android:text="Ver Ejemplo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnCalcular"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etDescripcion" />
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="308dp" />
 
     <Button
         android:id="@+id/btnCalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calcular Constante de Kaprekar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btnEjemplo"
-        app:layout_constraintTop_toBottomOf="@+id/etDescripcion" />
+        tools:layout_editor_absoluteX="369dp"
+        tools:layout_editor_absoluteY="309dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,10 +1,3 @@
 <resources>
     <string name="app_name">Kaprekar</string>
-    <string name="etUsuario">Usuario</string>
-    <string name="etPassword">Password</string>
-    <string name="btnUsuario">Usuario</string>
-    <string name="etNumero">Numero de 4 digitos</string>
-    <string name="btnLimpiar">Limpiar</string>
-    <string name="etLista">Procesos</string>
-    <string name="etDescripcion">Descripcion</string>
 </resources>
