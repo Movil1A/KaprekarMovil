@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Kaprekar</string>
     <string name="btnRegresar">Regresar</string>
-    <string name="txtNumero">numero</string>
+    <string name="txtNumero">Numero de 4 cifras</string>
     <string name="txtEdit">Edit</string>
+    <string name="etIteracion"> </string>
 </resources>
