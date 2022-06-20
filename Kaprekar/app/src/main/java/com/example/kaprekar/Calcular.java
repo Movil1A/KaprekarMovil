@@ -10,6 +10,7 @@ import android.sax.Element;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -45,6 +46,7 @@ public class Calcular extends AppCompatActivity {
             public void onClick(View view) {
 
                 try {
+                    Limpiar(false);
                     String numero = etNumero.getText().toString();
 
                     ArrayList<String> listado = metodos.kaprekarMostrar(numero);
@@ -57,7 +59,7 @@ public class Calcular extends AppCompatActivity {
                         etLista.append(listado.get(i));
                     }
                 }catch (Exception ex){
-
+                    Toast.makeText(Calcular.this, "Error", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -65,10 +67,17 @@ public class Calcular extends AppCompatActivity {
         btnLimpiar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                etIteracion.setText("");
-                etNumero.setText("");
-                etLista.setText("");
+                Limpiar(true);
             }
         });
+
+
+    }
+    void Limpiar(boolean b){
+        if (b){
+            etNumero.setText("");
+        }
+        etIteracion.setText("");
+        etLista.setText("");
     }
 }
