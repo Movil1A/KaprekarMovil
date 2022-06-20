@@ -33,8 +33,14 @@ public class Metodos{
     public ArrayList<String> kaprekarMostrar(String num) {
         lista = new ArrayList<String>();
         count=0;
-        if (!num.matches("^[0-9]{4}$")){
+        if (!num.matches("^[0-9]{2,4}$")){
             return null;
+        }
+        if(num.length()==2){
+            num = "00" + num;
+        }
+        if(num.length()==3){
+            num = "0" + num;
         }
         char[] arr = num.toCharArray();
         boolean ok = true;
